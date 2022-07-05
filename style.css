@@ -4,10 +4,13 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .style{
     color: orange;
 }
-section{
+.love{
     display: flex;
     margin: 100px;
 }
@@ -24,4 +27,21 @@ section{
     color: white;
     font-weight: 700;
     padding: 10px 40px;
+}
+.web{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px gray;
+}
+#full{
+    border-left: 7px solid tomato;
+}
+#baby{
+    border-left: 7px solid blue;
+}
+footer p{
+    text-align: center;
 }
